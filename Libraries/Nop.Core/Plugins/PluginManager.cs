@@ -364,9 +364,9 @@ namespace Nop.Core.Plugins
                             }
                         }
                     }
-                   
+                    var plugins = GetDescriptionFilesAndDescriptors(pluginFolder);
                     //load description files
-                    foreach (var dfd in GetDescriptionFilesAndDescriptors(pluginFolder))
+                    foreach (var dfd in plugins)
                     {
                         var descriptionFile = dfd.Key;
                         var pluginDescriptor = dfd.Value;

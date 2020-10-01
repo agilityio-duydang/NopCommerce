@@ -40,14 +40,103 @@
 
     <!-- We copy the \Logs directory -->
     <Content Include="Logs\**" CopyToPublishDirectory="PreserveNewest" />
+    <None Include="Plugins\DiscountRules.CustomerRoles\Views\Configure.cshtml" />
+    <None Include="Plugins\DiscountRules.CustomerRoles\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\ExternalAuth.Facebook\Views\Configure.cshtml" />
+    <None Include="Plugins\ExternalAuth.Facebook\Views\PublicInfo.cshtml" />
+    <None Include="Plugins\ExternalAuth.Facebook\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.CheckMoneyOrder\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.CheckMoneyOrder\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.CheckMoneyOrder\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.Manual\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.Manual\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.Manual\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.PayPalDirect\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.PayPalDirect\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.PayPalDirect\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.PayPalStandard\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.PayPalStandard\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.PayPalStandard\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.Square\App.config" />
+    <None Include="Plugins\Payments.Square\Areas\Admin\sitemap.config" />
+    <None Include="Plugins\Payments.Square\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.Square\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.Square\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.Square\web.config" />
+    <None Include="Plugins\Payments.Worldpay\App.config" />
+    <None Include="Plugins\Payments.Worldpay\Areas\Admin\sitemap.config" />
+    <None Include="Plugins\Payments.Worldpay\Views\Configure.cshtml" />
+    <None Include="Plugins\Payments.Worldpay\Views\Customer\_CreateOrUpdate.Worldpay.cshtml" />
+    <None Include="Plugins\Payments.Worldpay\Views\PaymentInfo.cshtml" />
+    <None Include="Plugins\Payments.Worldpay\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Payments.Worldpay\web.config" />
+    <None Include="Plugins\Pickup.PickupInStore\Views\Configure.cshtml" />
+    <None Include="Plugins\Pickup.PickupInStore\Views\Create.cshtml" />
+    <None Include="Plugins\Pickup.PickupInStore\Views\Edit.cshtml" />
+    <None Include="Plugins\Pickup.PickupInStore\Views\_CreateOrUpdate.cshtml" />
+    <None Include="Plugins\Pickup.PickupInStore\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\CategoryMappingsAdmin\CategoryAddPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\AdminNavigation\AdminNavigation.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\CategoryMappingsAdmin\List.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ConditionsAdmin\Condition.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ConditionsAdmin\Create.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ConditionsAdmin\Edit.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ConditionsAdmin\_CreateOrUpdate.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\CustomerOverridesAdmin\CustomerOverrides.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ManufacturerMappingsAdmin\List.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ProductMappingsAdmin\List.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ProductOverridesAdmin\ProductOverrides.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ScheduleAdmin\Create.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\ScheduleAdmin\_CreateOrUpdate.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\VendorMappingsAdmin\List.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Components\WidgetMappingsAdmin\List.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\CustomerOverridesAdmin\CustomerOverridesPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\DefaultSettingsAdmin\_DefaultSettingsGrid.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\EditorTemplates\KendoUIDateTimeNullable.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\EditorTemplates\KendoUITimeSpanNullable.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\ManufacturerMappingsAdmin\ManufacturerAddPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\NopCoreAdmin\Information.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\NopCoreAdmin\Warnings.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\ProductMappingsAdmin\ProductAdd.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\ProductMappingsAdmin\ProductAddPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\ProductOverridesAdmin\ProductOverridesPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Shared\ManageResources.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Shared\_AdminLayout7Spikes.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Shared\_CopyEntity.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Shared\_ResetDefaultSettings.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\Shared\_TrialAdmin.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\VendorMappingsAdmin\VendorAddPopup.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Areas\Admin\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Views\Shared\_ColorSquare.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Views\Shared\_CustomCssResource.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Views\Shared\_TrialMessage.cshtml" />
+    <None Include="Plugins\SevenSpikes.Core\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Shipping.Fedex\Views\Configure.cshtml" />
+    <None Include="Plugins\Shipping.Fedex\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\AddRateByWeightPopup.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\Configure.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\EditRateByWeightPopup.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\_ByWeight.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\_CreateOrUpdateRateByWeight.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\_FixedRate.cshtml" />
+    <None Include="Plugins\Shipping.FixedOrByWeight\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Shipping.UPS\Views\Configure.cshtml" />
+    <None Include="Plugins\Shipping.UPS\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Tax.FixedOrByCountryStateZip\Views\Configure.cshtml" />
+    <None Include="Plugins\Tax.FixedOrByCountryStateZip\Views\_CountryStateZip.cshtml" />
+    <None Include="Plugins\Tax.FixedOrByCountryStateZip\Views\_FixedRate.cshtml" />
+    <None Include="Plugins\Tax.FixedOrByCountryStateZip\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Widgets.GoogleAnalytics\Views\Configure.cshtml" />
+    <None Include="Plugins\Widgets.GoogleAnalytics\Views\PublicInfo.cshtml" />
+    <None Include="Plugins\Widgets.GoogleAnalytics\Views\_ViewImports.cshtml" />
+    <None Include="Plugins\Widgets.NivoSlider\Views\Configure.cshtml" />
+    <None Include="Plugins\Widgets.NivoSlider\Views\PublicInfo.cshtml" />
+    <None Include="Plugins\Widgets.NivoSlider\Views\_PublicInfo.SliderLine.cshtml" />
+    <None Include="Plugins\Widgets.NivoSlider\Views\_ViewImports.cshtml" />
 
     <None Update="Areas\Admin\sitemap.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
-  </ItemGroup>
-
-  <ItemGroup>
-    <Folder Include="Plugins\bin\" />
   </ItemGroup>
 
   <!-- This target execute after "Build" target.
